@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <title>Formularios</title>
+   </head>
+
+   <body>
+      <section>
+         <form name="miformulario" id="miformulario" method="get">
+            <datalist id="informacion">
+               <option value="123123123" label="Teléfono 1">
+               <option value="345345345" label="Teléfono 2">
+            </datalist>
+            <input type="tel" name="telefono" id="telefono" list="informacion"  placeholder="Escriba su teléfono" required>
+            <input type="submit" value="Enviar">
+         </form>
+      </section>
+   </body>
+</html>
